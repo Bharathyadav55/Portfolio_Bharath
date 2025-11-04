@@ -1,5 +1,5 @@
 import HeroImg from "@/assets/images/hero.jpg";
-import OlovaLogo from "@/assets/images/olova.png";
+
 
 export default function About() {
   return (
@@ -23,23 +23,22 @@ export default function About() {
             </div>
 
             <div className="relative space-y-4">
-  <p className="text-white"> Hello! I'm Bharath Yadav Puni, a full‑stack developer building reliable, 
-    maintainable web apps with React.js on the frontend and Node.js/Express.js on the backend, backed by MongoDB/MySQL.{" "} 
-    <span className="font-bold text-white"> Focused on responsive UI, accessibility, and clean component architecture </span> , 
-    I design and integrate REST APIs and ship features that improve usability and developer velocity. </p> 
-  <p className="text-white"> Recent work includes Samayam Scheduler (constraint‑based timetable generator), 
-    a Weather Dashboard using OpenWeatherMap, and a Movie Database with search and pagination. I prioritize mobile‑first design, 
-    strong state management with Context API, and clear error handling for resilient user experiences. </p>
+              <p className="text-white"> Hello! I'm Bharath Yadav Puni, a full‑stack developer building reliable, 
+                maintainable web apps with React.js on the frontend and Node.js/Express.js on the backend, backed by MongoDB/MySQL.{" "} 
+                <span className="font-bold text-white"> Focused on responsive UI, accessibility, and clean component architecture </span> , 
+                I design and integrate REST APIs and ship features that improve usability and developer velocity. </p> 
+              <p className="text-white"> Recent work includes Samayam Scheduler (constraint‑based timetable generator), 
+                a Weather Dashboard using OpenWeatherMap, and a Movie Database with search and pagination. I prioritize mobile‑first design, 
+                strong state management with Context API, and clear error handling for resilient user experiences. </p>
 
-  <div className="pt-6"> 
-    <blockquote className="border-l-4 border-gray-300 pl-4"> 
-      <p className="text-white"> Continuous learner with hands‑on Git/GitHub, Postman, and Agile collaboration, 
-        turning ideas into working products end‑to‑end—from API design to pixel‑perfect interfaces—while writing clean, accessible code that scales. 
-      </p> 
-    </blockquote> 
-  </div>
-</div>
-
+              <div className="pt-6"> 
+                <blockquote className="border-l-4 border-gray-300 pl-4"> 
+                  <p className="text-white"> Continuous learner with hands‑on Git/GitHub, Postman, and Agile collaboration, 
+                    turning ideas into working products end‑to‑end—from API design to pixel‑perfect interfaces—while writing clean, accessible code that scales. 
+                  </p> 
+                </blockquote> 
+              </div>
+            </div>
           </div>
         </div>
       </section>
