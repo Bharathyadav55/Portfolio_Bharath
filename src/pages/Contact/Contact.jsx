@@ -93,14 +93,14 @@ const Contact = () => {
     };
 
     return (
-        <main className="pt-20 lg:pt-[0rem] bg-[#04081A] text-white min-h-screen">
+        <main className="pt-20 lg:pt-0 bg-[#04081A] text-white min-h-screen">
             <section className="hero min-h-screen flex items-center relative px-4 sm:px-6 lg:px-8">
                 <div className="container mx-auto">
                     <div className="grid lg:grid-cols-2 gap-12 items-center">
                         {/* Contact Info */}
                         <div className="space-y-8">
                             <div>
-                                <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+                                <h2 className="text-4xl font-bold mb-4 bg-linear-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
                                     Get in Touch
                                 </h2>
                                 <p className="text-gray-300 text-lg">
@@ -211,7 +211,7 @@ const Contact = () => {
                                 <button
                                     type="submit"
                                     disabled={isLoading}
-                                    className="w-full bg-gradient-to-r from-blue-500 to-purple-500 text-white py-3 px-6 rounded-lg font-semibold flex items-center justify-center space-x-2 hover:opacity-90 transition-opacity disabled:opacity-50 disabled:cursor-not-allowed"
+                                    className="w-full bg-linear-to-r from-blue-500 to-purple-500 text-white py-3 px-6 rounded-lg font-semibold flex items-center justify-center space-x-2 hover:opacity-90 transition-opacity disabled:opacity-50 disabled:cursor-not-allowed"
                                 >
                                     <span>{isLoading ? 'Sending...' : 'Send Message'}</span>
                                     <Send className="w-4 h-4" />

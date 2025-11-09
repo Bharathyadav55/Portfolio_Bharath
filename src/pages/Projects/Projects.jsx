@@ -7,6 +7,8 @@ import PropTypes from "prop-types";
 import WeatherImg from "../../assets/images/Weather.png";
 import TodoImg from "../../assets/images/todo.png";
 import FoodoImg from "../../assets/images/Foodoo.png";
+import AuthXImg from "../assets/images/AuthX.png";
+import PortfolioImg from "../../assets/images/Portfolio.png";
 const projects = [
   {
     title: "Foodoo - Food Delivery Platform (Built with React.js, Node.js, MongoDB)",
@@ -15,7 +17,26 @@ const projects = [
     image: FoodoImg, 
     color: "#FF6B35",
     githubLink: "https://github.com/Bharathyadav55/Foodo-App",
-    liveLink: "#",
+    liveLink: "https://foodo-app.onrender.com/",
+  },
+  {
+    title: "Auth-X - Complete Authentication System (Built with MERN Stack)",
+    description:
+      "Full-stack authentication boilerplate featuring user registration with email verification, secure JWT-based login/logout, password reset via email, protected routes with middleware, MongoDB integration, and responsive UI with React and Tailwind CSS. Backend deployed on Render, frontend on Render with production-ready CORS and cookie configuration.",
+    image: AuthXImg, 
+    color: "#10B981", // Green color for auth/security theme
+    githubLink: "https://github.com/Bharathyadav55/auth-x-authentication-app",
+    liveLink: "https://auth-x-frontend.onrender.com/",
+  },
+
+  {
+    title: "Portfolio Website - Personal Portfolio (Built with React.js, Vite, Tailwind CSS)",
+    description:
+      "Modern, interactive portfolio website featuring smooth animations with Framer Motion, responsive design with Tailwind CSS, integrated contact form with Web3Forms, interactive skill visualization with icon cloud, and project showcase with live demos. Deployed on Netlify with optimized performance.",
+    image: PortfolioImg, // Add this import at the top
+    color: "#8B5CF6", // Purple gradient color
+    githubLink: "https://github.com/Bharathyadav55/Portfolio_Bharath",
+    liveLink: "https://bharathyadav-portfolio.netlify.app/",
   },
   {
     title: "Weather Dashboard App  (Built with React.js, OpenWeatherMap API)",
